@@ -32,20 +32,21 @@ pip install -r requirements.txt
 
 The project is divided into the following sections:
 
-### Part I: Data Acquisition
-- `data_acquisition.ipynb`: Notebook containing code for data acquisition.
-- `churn_raw_data.csv`: Raw data file acquired from the data source.
+## Data
 
-### Part II: Data Exploration
-- `data_exploration.ipynb`: Notebook containing code for data exploration.
-- `EDA_visualizations`: Folder containing visualizations generated during data exploration.
+This folder contains the data files used in the project. It includes CSV files with information about customers, services, and survey responses.
 
-### Part III: Data Cleaning
-- `data_cleaning.ipynb`: Notebook containing code for data cleaning.
-- `cleaned_data.csv`: Cleaned data file after handling missing values, renaming variables, and addressing outliers.
+## Src
 
-### Part IV: Principal Component Analysis
-- `PCA.ipynb`: Notebook containing code for principal component analysis.
+This folder contains the python scripts used for assessing and mitigating data quality issues. These scripts are organized in separate files for easy management and understanding.
+
+## Notebooks
+
+This folder contains Jupyter Notebooks used for data exploration, visualization, and analysis. You can open these notebooks using Jupyter Notebook or JupyterLab and run the cells to see the results.
+
+## Results
+
+This folder contains the output files and results obtained from the analysis. It may include charts, tables, or other visualizations that provide insights into the telecom market and customer preferences.
 
 ## Authors
 
